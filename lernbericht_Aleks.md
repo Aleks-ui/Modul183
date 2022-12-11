@@ -101,7 +101,7 @@ wird das Isert-Statement mit unbekannten Values gesetzt und mit dem Prepared-Sta
     }
 ```
 Bei dem String 'sql' wird die Daten als Unbekannte gesetzt. Erst später benutzt man den PreparedStatement. 
-Dieser sagt einfach, dass bei diesen Datensätzen aufgepasst werden soll was entgegengenommen wird und der Interpreter unterscheidet was ein Datensatz ist und was eine Anweisung ist.
+Dieser sagt einfach, dass bei diesen Datensätzen aufgepasst werden soll was entgegengenommen wird und der Interpreter unterscheidet was ein Datensatz ist und was eine Anweisung ist. Hätte es dies nicht gegeben, hätte ein Hacker eine News erstellen können, die gekennzeichnet wurde, dass es von einem Admin veröffentlicht wurde.
 
 
 ## Verifikation
